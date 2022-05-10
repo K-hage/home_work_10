@@ -9,3 +9,4 @@ def get_candidates():
 # def get_images(image):
 #     response = urllib.request.urlopen(image)
 #     return response.geturl()
+
