@@ -20,7 +20,7 @@ def get_candidates(name):
     for candidate in candidates_list:
         if name.title().strip() == candidate["name"]:
             # picture = get_images(candidate['picture'])
-            return f'<img scr="{candidate["picture"]}"/>' \
+            return f'<center><img src={candidate["picture"]} width="200" height="200" alt=""></center>' \
                    f"<center><p>Имя кандидата - {candidate['name']}</p>" \
                    f"<p>Позиция кандидата: {candidate['position']}</p>" \
                    f"<p>Навыки: {candidate['skills']}</p>"
